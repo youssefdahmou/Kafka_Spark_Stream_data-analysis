@@ -35,7 +35,7 @@ The architecture of the system involves the following components:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/real-time-data-warehouse.git
+    git clone https://github.com/youssefdahmou/Kafka_Spark_Hadoop_Stream_data-analysis.git
     cd real-time-data-warehouse
     ```
 
