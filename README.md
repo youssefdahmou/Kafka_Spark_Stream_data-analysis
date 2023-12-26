@@ -2,7 +2,14 @@
 
 ## Overview
 
-This project is designed to stream weather data from the Maltepell region using the WeatherAPI, process the streaming data in real-time using Apache Kafka and PySpark, store the data in Delta Lake, and utilize historical weather data from an API since 2010. Additionally, the project involves training machine learning models, including LSTM, decision tree, random forest, etc., to predict future temperatures. The predictions are then visualized using Power BI.
+This project is designed to stream weather data from the Maltepell region using the WeatherAPI, process the streaming data in real-time using Apache Kafka and PySpark, store the data in Delta Lake, and utilize historical weather data from an API since 2010.
+
+![project workflow]( ./image/project_workflow.PNG "project workflow")
+
+ Additionally, the project involves training machine learning models, including LSTM, decision tree, random forest, etc., to predict future temperatures. The predictions are then visualized using Power BI.
+
+ ![dash]( ./image/dash.PNG "dash")
+
 
 ## Setup Instructions
 
@@ -10,7 +17,6 @@ This project is designed to stream weather data from the Maltepell region using 
 
 - [Apache Spark](https://spark.apache.org/) installed on your system.
 - Docker installed to run necessary containers.
-- Python dependencies installed (specified in `requirements.txt`).
 - WeatherAPI key for streaming current weather data.
 - Historical weather API access for data since 2010.
 
